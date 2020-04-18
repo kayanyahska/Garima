@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ALPHA CUBE</title>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+/*
+#container
+{
+  text-align: center;
+  top-margin: 300px;
+}
+*/
+
+.bg {
+    /* The image used */
+    background-image: url("https://www.planwallpaper.com/static/images/4443457-cool-backgrounds.png");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+
+</head>
+
+
+
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+</head>
+
+<body>
+<div class="bg">
+
+
+
+
+
+<!-- 	<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Safety</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+     <li><a href="#">NEAREST POLICE STATION</a></li>
+      <li><a href="#">EMERGENCY DETAILS</a></li>
+      <li><a href="#">CONTACT EMERGENCY</a></li>
+    </ul>
+  </div>
+</nav>
+
+<style>
+
+body{
+	 background: -webkit-linear-gradient(#93B874, #C9DCB9); 
+    background: -o-linear-gradient(#93B874, #C9DCB9); 
+    background: -moz-linear-gradient(#93B874, #C9DCB9); 
+    background: linear-gradient(#93B874, #C9DCB9); 
+    background-color: #93B874;
+}
+
+</style>
+<style>
+<h1 style="text-align: center;" style="font-weight: bold;">ALPHA CUBE</h1>
+</style>
+ <form action="action_page.php">
+  <div class="imgcontainer">
+    
+  </div>
+
+  <div id="map" style="width:720px;height:480px;background:yellow"></div>
+
+<script>
+function myMap() {
+var mapOptions = {
+    center: new google.maps.LatLng(51.5, -0.12),
+    zoom: 10,
+    mapTypeId: google.maps.MapTypeId.HYBRID
+}
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkKc-oigF24jNtgQio6erz128zRqCO_U4&callback=myMap"></script> -->
+
+
+<div id="container">
+ <form method="get" action='/showMap/' enctype="multipart/form-data">
+  <div class="form-group">
+    <label for="email" style="color: white;" caption align="right">Destination A:</label>
+    <input type="text" class="form-control" style="width: 25%;" caption align="right" id="email" name='apoint'>
+  </div>
+  <div class="form-group">
+    <label for="pwd" style="color: white;" caption align="right">Destination B:</label>
+    <input type="text" class="form-control" style="width: 25%;" caption align="right" id="pwd" name="bpoint">
+  </div>
+
+  <button type="submit" class="btn btn-success">Submit</button>
+</form> 
+</div>
+
+</div>
+
+
+
+
+
+</body>
+</html>
